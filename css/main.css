@@ -108,3 +108,26 @@ transition: all 0.1s;
 color: #2196f3;
 
 }
+.display {
+  display: none;
+}
+
+@media (max-width: 767.98px){
+  section{
+    display: none;
+  }
+  body {
+  background: black;
+  
+}
+div {
+  display: none;
+}
+.display {
+  display: block;
+  color: white;
+  margin: 120px 70px;
+}
+
+}
+  
